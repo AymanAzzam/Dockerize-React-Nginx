@@ -23,8 +23,10 @@ docker-compose up
 
 ## Run Production
 
-Run **docker-compose-prod.yaml**
+1. Run **docker-compose-prod.yaml**
 
 ```bash
 docker-compose -f docker-compose-prod.yaml up -d
 ```
+
+2. Visit http://host:9090
