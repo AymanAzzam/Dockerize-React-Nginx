@@ -3,7 +3,7 @@ version: "3.9"
 services:
   app:
     container_name: app_dev
-    image: app-dev:1.1.0
+    image: app-dev:1.2.0
     build:
       context: .
       dockerfile: docker/dev/Dockerfile
