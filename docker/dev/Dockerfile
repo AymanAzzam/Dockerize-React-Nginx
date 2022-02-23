@@ -3,8 +3,7 @@ FROM node:14-alpine
 # Set Environment variable
 ENV NODE_ENV development
 # Install dependencies
-RUN apk update
-RUN apk add git
+RUN apk --no-cache add git
 # Set user to the current host user
 USER 1000
 # Set current directory to /app
