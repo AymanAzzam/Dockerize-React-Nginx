@@ -10,7 +10,7 @@ services:
     entrypoint: ["npm", "start"]
     env_file: .env
     volumes:
-      - ./src:/app/src
+      - .:/app
     networks:
       - wms-network
 
