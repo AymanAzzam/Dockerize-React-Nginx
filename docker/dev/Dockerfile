@@ -13,6 +13,6 @@ COPY --chown=1000:1000 package.json .
 COPY --chown=1000:1000 package-lock.json .
 
 ENTRYPOINT [ "/app/entrypoint.sh" ]
-# Expose port (changed to 3002)
-EXPOSE 3002
+# Expose port 
+EXPOSE 3000
 CMD [ "npm", "start" ]
