@@ -25,7 +25,7 @@ services:
     restart: always
     ports:
       - 8080:80
-      - 443:80
+      - 80:443
     networks:
       - wms-network
 
