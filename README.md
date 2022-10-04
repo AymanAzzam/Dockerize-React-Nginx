@@ -29,4 +29,4 @@ docker-compose up
 docker-compose -f docker-compose-prod.yaml up -d
 ```
 
-2. Visit http://host:9090
+2. Visit http://host:8080
